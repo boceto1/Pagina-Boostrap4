@@ -1,3 +1,38 @@
-.encabezado{
-    display: flex;
+/*
+Aprendizade del uso de variables, se utiliza:
+Signo de dolar: $texto, $principal, $secundario.
+*/
+
+//===================================
+//          PATRÓN DE COLORES
+//===================================
+$texto:white;
+$principal:green;
+$secundario: orange;
+
+/*Ejemplo de la aplicación de las variables 
+body{
+    background-color: $principal;
+    color: $texto;
+    border: 5px solid $secundario;
+} */
+
+
+/* 
+Estilos de Prueba
+ */
+
+.container{
+    border: 1px solid red;
+    padding: 2px;
+}
+
+.row{
+    border: 1px solid blue;
+    margin: 1px;
+}
+
+// >* se usa para aplicar propiedades a todas las clases hijas de row
+.row>*{
+    border: 3px solid green;
 }

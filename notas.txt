@@ -1,0 +1,30 @@
+Las 12 reglas del sistema de columnas de Boostrap 4
+
+1.- Son 3 los elementos que conforman este sistema:
+un contenedor -->  las filas -->  las columnas"
+
+2.- Tenemos dos tipos de contenedores
+Container .- los elementos parece que estan dentro de una caja, se aumenta el tamaño y no pasa nada
+container-fluid.- los elementos ocupan todo el ancho de pantalla.
+
+3.- Las filas tienen que ser hijas directas de un contenedor.
+
+4.- Las columnas tienen que ser hijas directas de una filas (No hay otro tipo contenido aparte de columnas en las filas)
+
+5.- Una fila puede tener como máximo 12 columnas
+
+6.- Si supera las 12 columnas automatica esta pasará abajo creando una nueva fila.
+
+7. El contenido debe ir dentro de las columnas
+
+8.- La clase col nos permite crear columnas de proporciones identicas
+
+9.- Podemos modificar el tamaño de una columna dependiendo del tamaño de la pantalla
+    Contextos
+    col-* por defecto: se aplica a tamaños > 0 px
+    col-sm-* : se aplica a tamaños >= 576 px
+    col-md-* : se aplica a tamaño >= 786 px
+    col-lg-* : se aplica a tamaño >= 992 px
+    col-xl-* : se aplica a tamño >= 1200 px
+
+    

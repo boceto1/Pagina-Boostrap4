@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+Aprendizade del uso de variables, se utiliza:
+Signo de dolar: $texto, $principal, $secundario.
+*/
+/*Ejemplo de la aplicación de las variables 
+body{
+    background-color: $principal;
+    color: $texto;
+    border: 5px solid $secundario;
+} */
+/* 
+Estilos de Prueba
+ */
+.container {
+  border: 1px solid red;
+  padding: 2px; }
+
+.row {
+  border: 1px solid blue;
+  margin: 1px; }
+
+.row > * {
+  border: 3px solid green; }
+
+/*# sourceMappingURL=estilos.css.map */
