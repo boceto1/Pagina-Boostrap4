@@ -27,4 +27,15 @@ container-fluid.- los elementos ocupan todo el ancho de pantalla.
     col-lg-* : se aplica a tamaño >= 992 px
     col-xl-* : se aplica a tamño >= 1200 px
 
-    
+Por lo general se usa el col por defecto y el sm.
+
+10.- Los contextos se heredan de menor a mayor
+
+11.- Podemos crear columnas vacias  (offset-md-6)
+
+12.- Podemos crear columnas anidadas
+
+13.- Podemos reanidar el sistema de columnas (order-*)(firs -- latest)
+    El cambio solo es visual no afecta el codigo fuente
+
+
