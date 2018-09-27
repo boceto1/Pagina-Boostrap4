@@ -23,4 +23,22 @@ Estilos de Prueba
 .row > * {
   border: 3px solid green; }
 
+html {
+  font-size: 12px; 
+}
+
+p {
+  font-size: 1rem; }
+
+h1 {
+  font-size: 2rem; 
+  border: .5rem solid red;
+  padding:  1rem;
+}
+
+@media(min-width: 768px){
+    html{
+      font-size:30px;
+    }
+}
 /*# sourceMappingURL=estilos.css.map */

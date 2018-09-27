@@ -1,0 +1,4 @@
+Boostrap utiliza REM: medida relativa basada en el tamaño de fuente 
+de la etiqueta HTML.
+
+Se puede manejar los encabezados desde las clases con h1:h6 señalado en las clases
