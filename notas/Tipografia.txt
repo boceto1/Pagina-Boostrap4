@@ -2,3 +2,18 @@ Boostrap utiliza REM: medida relativa basada en el tamaño de fuente
 de la etiqueta HTML.
 
 Se puede manejar los encabezados desde las clases con h1:h6 señalado en las clases
+
+Se tiene siempre un color principal y uno secundario dependiendo del logotipo o los colores de
+la institución.
+
+--Espaciado---.
+En boostrap (m-p)(t-r-b-l-x-y)-(1:5)
+para responsibe mt-md-1
+m: margin. p: padding. t: top. r: rogth
+1 --> .25 REM
+2 --> .5 REM
+3 --> .1 REM
+4 --> 1.5 REM
+5 --> 3 REM
+
+mx-auto: para centrar.
