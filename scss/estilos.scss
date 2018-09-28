@@ -48,4 +48,11 @@ h1{
     font-size: 2rem;
 }
 
+.servicios{
+    border: 1px solid green;
+    height: 150px;  
+  }
+.servicios>*{
+    border: 1px solid red;  
+  }
 

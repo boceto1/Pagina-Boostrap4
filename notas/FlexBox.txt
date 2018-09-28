@@ -1,0 +1,2 @@
+Para alianear de manera flexible mis componentes
+por defecto la direccion es ROW.
